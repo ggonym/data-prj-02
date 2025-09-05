@@ -1,1 +1,79 @@
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 40px;   
+    box-sizing:border-box;
+    margin: 0 auto;
+
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+}
+.warp {
+    padding-bottom: 100px;
+} 
+
+h1 {
+    color: #007bff;
+}
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+
+.chart-bg {
+    background-color: #fff;
+    border: 1px solid #edf2f9;
+    border-radius: 0.5rem;
+}
+
+.columns{
+       
+    gap: 10px;
+    
+}
+/* .column {
+   padding: 28px 20px;
+} */
+
+.contents-visual{
+    
+    height:100%;  
+    
+    
+}
+.contents-box {
+   padding: 20px;
+   min-height: 100%;
+   max-height: 350px;
+}
+
+.main-title{
+    margin-bottom: 14px !important;
+}
+
+#rank-list {
+    height: 260px;
+    overflow-y: scroll;
+   
+}
+.rank-item{
+    padding-bottom: 0px !important;
+    
+}
+.rank-number, .rank-keyword {
+    font-size: 14px !important;
+}
