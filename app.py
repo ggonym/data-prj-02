@@ -11,10 +11,12 @@ def index():
 #def about():
 #    return("about.html")
 
-
-
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Render가 PORT 환경변수를 줌
+    app.run(host="0.0.0.0", port=port)
+
+# if __name__ == "__main__":
+#     app.run(debug=True)
 
 
 # from flask import Flask, render_template
@@ -31,3 +33,4 @@ if __name__ == "__main__":
 
 # if __name__ == "__main__":
 #     app.run(debug=True)
+
